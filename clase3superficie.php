@@ -21,6 +21,9 @@ echo"<br>";
 
 /*cuarto*/
 function circulo($radio){
+global $funcionesEjecutadas;
+$funcionesEjecutadas++;
  return pi() * ($radio * $radio);
+
 }
 echo circulo (2);

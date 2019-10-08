@@ -1,6 +1,9 @@
 <?php
 function mayor($numero1, $numero2, $numero3){
+  global $funcionesEjecutadas;
+  $funcionesEjecutadas++;
 if ($numero1 > $numero2 && $numero1 > $numero3) {
+
   return $numero1;
 
 }elseif($numero2 > $numero1 && $numero2 > $numero3){
@@ -26,6 +29,7 @@ echo "<br>";
 /*tercero*/
 function mayor1($numero1, $numero2, $numero3 = 100){
 if ($numero1 > $numero2 && $numero1 > $numero3) {
+
   return $numero1;
 
 }elseif($numero2 > $numero1 && $numero2 > $numero3){
