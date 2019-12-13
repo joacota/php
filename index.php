@@ -8,7 +8,7 @@ $persona = [
 $persona["edad"] = 25;
 $persona["Direccion"] = "Winterfall";
 $persona["hobbies"] [] = "dormir";
-var_dump($persona);
+
 $numero1 = 4;
 $numero2 = 3;
 if ($numero1 > $numero2) {
